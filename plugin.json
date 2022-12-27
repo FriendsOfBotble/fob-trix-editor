@@ -1,0 +1,10 @@
+{
+    "id": "datlechin/trix-editor",
+    "name": "Trix Editor",
+    "namespace": "Datlechin\\TrixEditor\\",
+    "provider": "Datlechin\\TrixEditor\\Providers\\TrixEditorServiceProvider",
+    "author": "Ngo Quoc Dat",
+    "url": "https://github.com/datlechin",
+    "version": "0.1",
+    "description": "Integrate Trix Editor into Botble CMS."
+}
