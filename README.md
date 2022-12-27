@@ -6,7 +6,7 @@ Integrate Trix Editor into Botble CMS.
 
 ## Installation
 
-Download **Trix editor** plugin at [marketplace.botble.com](https://marketplace.botble.com/products/datlechin/botble-sanctum-token)
+Download **Trix editor** plugin at [marketplace.botble.com](https://marketplace.botble.com/products/datlechin/botble-trix-editor)
 
 ### Use manually way:
 
