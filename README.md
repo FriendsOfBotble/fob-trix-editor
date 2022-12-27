@@ -21,4 +21,4 @@ Go to `Admin` -> `Settings` -> `General`, scroll to **Admin appearance** section
 ![](https://user-images.githubusercontent.com/56961917/209655361-f9904715-ada8-4d9c-a863-fc609a0ab80d.png)
 
 ## License
-The MIT License (MIT). Please see License File for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
