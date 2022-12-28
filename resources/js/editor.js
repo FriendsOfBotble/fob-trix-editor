@@ -27,17 +27,23 @@ $(document).ready(function () {
 
         const parentEl = document.createElement('div')
 
+
         files.forEach(function (file) {
+            let content;
+
             if (file.type === 'image') {
                 const image = document.createElement('img')
                 image.src = file.full_url
-                parentEl.appendChild(image)
+                content = image.outerHTML
             } else {
                 const link = document.createElement('a')
                 link.href = file.full_url
                 link.text = file.name
-                parentEl.appendChild(link)
+                content = link.outerHTML
             }
+
+            let attachment = new Trix.Attachment({ content })
+            trixEditor.insertAttachment(attachment)
         })
 
         trixEditor.insertHTML(parentEl.innerHTML)
