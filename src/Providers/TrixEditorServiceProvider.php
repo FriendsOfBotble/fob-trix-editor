@@ -1,9 +1,9 @@
 <?php
 
-namespace Datlechin\TrixEditor\Providers;
+namespace FriendsOfBotble\TrixEditor\Providers;
 
+use Botble\Base\Facades\Form;
 use Botble\Base\Traits\LoadAndPublishDataTrait;
-use Form;
 use Illuminate\Support\ServiceProvider;
 
 class TrixEditorServiceProvider extends ServiceProvider
@@ -24,9 +24,11 @@ class TrixEditorServiceProvider extends ServiceProvider
         ]);
 
         $this->app->booted(function () {
-            add_filter(BASE_FILTER_AVAILABLE_EDITORS, function (array $editors) {
-                return array_merge($editors, ['trix' => 'Trix']);
-            }, 143);
+            add_filter(
+                BASE_FILTER_AVAILABLE_EDITORS,
+                fn (array $editors) => [...$editors, 'trix' => 'Trix'],
+                143
+            );
         });
     }
 }

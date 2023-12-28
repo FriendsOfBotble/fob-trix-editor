@@ -1,8 +1,7 @@
 @php
     Assets::addStylesDirectly('vendor/core/plugins/trix-editor/css/trix.css')
-        ->addScriptsDirectly('vendor/core/plugins/trix-editor/js/trix.umd.min.js')
         ->addScriptsDirectly('vendor/core/core/base/js/editor.js')
-        ->addScriptsDirectly('vendor/core/plugins/trix-editor/js/editor.js');
+        ->addScriptsDirectly('vendor/core/plugins/trix-editor/js/trix.js');
 
     $id = Arr::get($attributes, 'id', $name);
     $attributes['class'] = Arr::get($attributes, 'class', '') . ' trix-editor';

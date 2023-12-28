@@ -1,0 +1,5 @@
+{
+    "devDependencies": {
+        "trix": "^2.0.8"
+    }
+}
