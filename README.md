@@ -20,6 +20,14 @@ Go to `Admin` -> `Settings` -> `Admin appearance`, choose the `Trix` option as *
 
 ![](https://github.com/FriendsOfBotble/trix-editor/assets/56961917/25dd62c0-198e-4c5c-b1ca-d4c5e023567f)
 
+
+If you discover any security-related issues, please email datlechin@gmail.com instead of using the issue tracker.
+
+## Credits
+
+- [Ngo Quoc Dat](https://github.com/datlechin)
+- [All Contributors](../../contributors)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

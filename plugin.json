@@ -1,11 +1,11 @@
 {
-    "id": "friendsofbotble/trix-editor",
-    "name": "Trix Editor",
-    "namespace": "FriendsOfBotble\\TrixEditor\\",
-    "provider": "FriendsOfBotble\\TrixEditor\\Providers\\TrixEditorServiceProvider",
-    "author": "FriendsOfBotble",
-    "url": "https://github.com/FriendsOfBotble",
-    "version": "1.2",
-    "description": "Integrate Trix Editor into Botble CMS.",
-    "minimum_core_version": "7.0.0"
+  "id": "friendsofbotble/trix-editor",
+  "name": "Trix Editor",
+  "namespace": "FriendsOfBotble\\TrixEditor\\",
+  "provider": "FriendsOfBotble\\TrixEditor\\Providers\\TrixEditorServiceProvider",
+  "author": "FriendsOfBotble",
+  "url": "https://github.com/FriendsOfBotble",
+  "version": "1.2.0",
+  "description": "Integrate Trix Editor into Botble CMS.",
+  "minimum_core_version": "7.0.0"
 }
