@@ -1,5 +1,5 @@
 {
-  "id": "friendsofbotble/trix-editor",
+  "id": "friendsofbotble/fob-trix-editor",
   "name": "Trix Editor",
   "namespace": "FriendsOfBotble\\TrixEditor\\",
   "provider": "FriendsOfBotble\\TrixEditor\\Providers\\TrixEditorServiceProvider",
